@@ -2,9 +2,9 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 
-import { App } from './app';
 import { configureAppStore } from 'store';
-
+import { App } from './app';
+/* eslint-disable */
 const store = configureAppStore();
 const MOUNT_NODE = document.getElementById('root');
 

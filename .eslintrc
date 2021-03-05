@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "settings": {
+    "import/no-extraneous-dependencies": 0,
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "./src/"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "react/prop-types": 0,
+    "import/prefer-default-export": 0
+  }
+}
